@@ -35,6 +35,10 @@ body {
 
 /* header */
 
+.hat {
+    border: 1px solid #ececec;
+}
+
 .logo-web {
     font-family: 'Raleway';
     font-size: 26px;
