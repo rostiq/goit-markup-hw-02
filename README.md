@@ -1,2 +1,1 @@
-# goit-markup-hw-02
- 
+https://rostiq.github.io/goit-markup-hw-02/
