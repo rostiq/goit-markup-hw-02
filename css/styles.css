@@ -1,0 +1,232 @@
+:root {
+    --brand-color: #2196f3;
+    --brand-color-buttons-hover: #188ce8;
+    --hero-and-footer-color: #2f303a;
+    --selection-color: #badefe;
+    --logo-studio-color: #000; 
+    --logo-studio-footer-color: #fff;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    
+}
+
+::selection {
+    background-color: var(--selection-color);
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover,
+.links:focus {
+    color: var(--brand-color);
+}
+
+.links.current {
+    color: var(--brand-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+
+.logo-web {
+    font-family: 'Raleway';
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.logo-studio {
+    font-family: 'Raleway';
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--logo-studio-color);
+}
+
+.pages-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* main */
+
+.hero {
+    background-color: var(--hero-and-footer-color);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.interaction {
+    border-style: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.interaction:hover {
+    background: var(--brand-color-buttons-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.activity{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-section {
+    background-color: #f5f4fa;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-card {
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-job {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* portfolio */
+
+.filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.filter:hover {
+    cursor: pointer;
+    background: var(--brand-color);
+    color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+} 
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-item {
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-card {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--hero-and-footer-color);
+}
+
+.logo-studio-footer {
+    font-family: 'Raleway';
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--logo-studio-footer-color); 
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.map-link {
+    color: #fff;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
