@@ -21,10 +21,6 @@ body {
     text-decoration: none;
 }
 
-.pages-list:visited {
-    color: inherit;
-}
-
 .links:hover,
 .links:focus {
     color: var(--brand-color);
@@ -64,6 +60,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: inherit;
 }
 
 .header-contacts {
